@@ -1,0 +1,28 @@
+{
+    "projects": [
+        {
+            "id": "1",
+            "title": "Project title",
+            "preview-image": "image.jpg",
+            "date": "10/06/2024",
+            "description": "Description text",
+            "tags": [
+                "Next.js",
+                "Tailwind",
+                "Shadcn"
+            ]
+        },
+        {
+            "id": "2",
+            "title": "Project title",
+            "preview-image": "image.jpg",
+            "date": "10/06/2024",
+            "description": "Description text",
+            "tags": [
+                "Next.js",
+                "Tailwind",
+                "Shadcn"
+            ]
+        }
+    ]
+}
