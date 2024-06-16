@@ -11,6 +11,7 @@ import {
   NavigationMenuTrigger,
   NavigationMenuViewport,
 } from "@/components/ui/navigation-menu";
+import Navbar from "@/components/ui/navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,16 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <NavigationMenu className="bg-primary">
-          <NavigationMenuList>
-            <NavigationMenuItem>
-              <NavigationMenuTrigger>Item One</NavigationMenuTrigger>
-              <NavigationMenuContent>
-                <NavigationMenuLink>Link</NavigationMenuLink>
-              </NavigationMenuContent>
-            </NavigationMenuItem>
-          </NavigationMenuList>
-        </NavigationMenu>
+        <Navbar />
 
         {children}
       </body>
